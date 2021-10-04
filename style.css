@@ -74,7 +74,6 @@ img {
 
 /* Inizio esercizio */
 
-
 @media all and (max-width: 420px) {
   .container {
 
@@ -82,10 +81,8 @@ img {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
- }
-}
+  }
 
-@media all and (max-width: 420px) {
   #lezioni .row>.left,
   #lezioni .row>.right,
   #steps .row>.left,
@@ -96,14 +93,10 @@ img {
     float: none;
     display: inline-block;
     text-align: center;
- }
-}
+  }
 
-@media all and (max-width: 420px) {
   img {
-
     width: 50%;
     height: 50%;
   }
 }
-
